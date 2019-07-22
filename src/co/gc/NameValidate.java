@@ -12,6 +12,7 @@ public class NameValidate {
 	System.out.println(validPhoneNum(scan));
 	System.out.println(validDate(scan));
 
+	scan.close();
 	}
 	private static String validName(Scanner scan) {
 		String nameValidity= "";
